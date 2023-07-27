@@ -1,0 +1,1018 @@
+@media (max-width: 1650px) {
+    .ready-solutions {
+        margin-right: 125px;
+    }
+
+    .menu-content {
+        width: 1310px;
+    }
+
+}
+
+@media (max-width: 1360px) {
+    .container {
+        max-width: 768px;
+        padding: 0 21px;
+    }
+
+    .header-content img {
+        margin-right: 102px;
+    }
+
+    .header-content p {
+        margin-top: 30px;
+    }
+
+    .burger-menu {
+        display: block;
+        position: relative;
+        width: 38px;
+        height: 20px;
+        top: -42px;
+        margin-left: auto;
+        margin-right: 3px;
+        z-index: 50;
+    }
+
+    .burger-menu span {
+        position: absolute;
+        content: '';
+        background-color: #333333;
+        width: 100%;
+        height: 3px;
+        border-radius: 5px;
+        left: 0;
+        top: 9px;
+    }
+
+    .burger-menu::before,
+    .burger-menu::after {
+        position: absolute;
+        content: '';
+        background-color: #333333;
+        width: 100%;
+        height: 3px;
+        border-radius: 5px;
+        left: 0;
+    }
+
+    .burger-menu::before {
+        top: 0;
+    }
+
+    .burger-menu::after {
+        bottom: 0;
+    }
+
+    .burger-menu.active span {
+        transform: scale(0);
+    }
+
+    .burger-menu.active::before {
+        transform: rotate(45deg);
+        top: 9px;
+    }
+
+    .burger-menu.active::after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+
+    .menu-content {
+        position: fixed;
+        width: 694px;
+        height: 400px;
+        right: -100%;
+        top: 0;
+    }
+
+    .menu-content.active {
+        right: 0;
+    }
+
+    .menu-list {
+        display: flex;
+        text-align: center;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 75px;
+        margin-left: 0px;
+        margin-bottom: 25px;
+        font-size: 18px;
+    }
+
+    .about,
+    .network,
+    .internet-shop,
+    .ready-solutions {
+        margin-right: 0;
+    }
+
+
+    .about::after,
+    .network::after,
+    .internet-shop::after,
+    .ready-solutions::after {
+        width: 100%;
+        height: 2px;
+        top: 115px;
+        left: -47px;
+    }
+
+    .about::after {
+        margin-left: 46px;
+    }
+
+    .network::after {
+        margin-left: 46px;
+        margin-top: 72px;
+    }
+
+    .internet-shop::after {
+        margin-left: 46px;
+        margin-top: 142px;
+    }
+
+    .ready-solutions::after {
+        margin-left: 46px;
+        margin-top: 210px;
+    }
+
+    .our-services {
+        margin-top: 7px;
+        padding-top: 1px;
+        height: 949px;
+    }
+
+    .our-service__title {
+        display: none;
+    }
+
+    .our-service__cards {
+        display: flex;
+        width: 708px;
+        margin-top: 31px;
+        flex-wrap: wrap;
+    }
+
+    .our-service__card {
+        width: 338px;
+        height: 353px;
+        border-radius: 5px;
+        border: 1px solid #E6E6E6;
+        margin-bottom: 111px;
+    }
+
+    .our-service__card h2 {
+        margin-top: 7px;
+    }
+
+    .our-service__card p {
+        margin-top: 39px;
+    }
+
+    .card4 p {
+        width: 237px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .our-service__card img {
+        width: 338px;
+    }
+
+    .our-service__bottom-cards {
+        width: 708px;
+        margin-top: -584px;
+        flex-wrap: wrap;
+    }
+
+    .our-service__bottom-cards p {
+        width: 339px;
+        margin-bottom: 410px;
+        margin-left: 1px;
+    }
+
+    .our-service__card h2::after {
+        margin-top: 40px;
+    }
+
+    .stc-geoloc__content {
+        margin-top: 65px;
+    }
+
+    .rivme-and-lyck {
+        width: 740px;
+        flex-direction: column;
+    }
+
+    .rivne-stc,
+    .lyck-stc {
+        width: 708px;
+    }
+
+    .stc button {
+        width: 155px;
+        margin-left: 261px;
+        margin-top: 15px;
+    }
+
+    .stc2 button,
+    .stc3 button {
+        margin-left: 242px;
+    }
+
+    .stc4 button {
+        margin-left: 109px;
+        margin-top: 24px;
+    }
+
+    .lyck {
+        margin-top: 41px;
+    }
+
+    stc {
+        padding-left: 20px;
+    }
+
+    .stc5 {
+        padding-top: 15px;
+    }
+
+    .stc5 .street-and-tel {
+        margin-top: -30px;
+        margin-left: 2px;
+    }
+
+    .stc5 button {
+        margin-left: 258px;
+        margin-top: 16px;
+    }
+
+    .stc6 button {
+        margin-left: 242px;
+    }
+
+    .stc7 {
+        margin-top: 13px;
+        margin-left: 2px;
+    }
+
+    .stc7 button {
+        margin-left: 138px;
+    }
+
+    .stc1::after,
+    .stc2::after,
+    .stc3::after,
+    .stc5::after,
+    .stc6::after {
+        width: 706px;
+    }
+
+    .stc5::after {
+        margin-top: 88px;
+    }
+
+    .video-gids__content {
+        margin-top: 53px;
+        margin-left: 2px;
+    }
+
+    .video-gids__content h1 {
+        margin-bottom: 17px;
+    }
+
+    .gid h2 {
+        text-align: center;
+    }
+
+    .gids {
+        width: 100%;
+    }
+
+    .video {
+        width: 340px;
+        height: 215px;
+    }
+
+    .prew {
+        height: 175px;
+    }
+
+    .gid {
+        margin-bottom: 15px;
+    }
+
+    .yt {
+        margin-left: 140px;
+        margin-top: 87px;
+    }
+
+    .youtube {
+        height: 38px;
+    }
+
+    .form__content {
+        width: 709px;
+        margin-top: 36px;
+        flex-wrap: wrap;
+    }
+
+    .form-title {
+        display: none;
+    }
+
+    .form-title-adapt {
+        display: block;
+    }
+
+    .form__content h1 {
+        font-size: 20px;
+        margin-left: 140px;
+        margin-top: 39px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .form-to-call {
+        width: 264px;
+        height: 379px;
+        margin-left: 222px;
+        margin-top: 14px;
+    }
+
+    .form-to-call h2 {
+        font-size: 16px;
+        margin-top: 13px;
+        margin-left: 57px;
+        margin-bottom: 13px;
+        width: 150px;
+    }
+
+    .form-to-call p {
+        margin-left: 15px;
+        margin-bottom: 3px;
+    }
+
+    .form-to-call input,
+    .form-to-call select {
+        width: 235px;
+        height: 45px;
+        margin-left: 15px;
+        padding-left: 7px;
+        margin-bottom: -4px;
+    }
+
+    .form-to-call select {
+        background-position: 210px center;
+        background-size: 13px;
+    }
+
+    .order-call {
+        width: 235px;
+        height: 60px;
+        margin-left: 15px;
+        margin-top: 14px;
+        padding-right: 25px;
+        padding-left: 21px;
+        padding-top: 6px;
+    }
+
+    .services h1 {
+        display: none;
+    }
+
+    .services__content {
+        padding-top: 6px;
+        padding-left: 16px;
+        width: 708px;
+        height: 1240px;
+        margin-top: 59px;
+    }
+
+    .lists {
+        flex-wrap: wrap;
+    }
+
+    .starters .lists ul {
+        margin-bottom: 33px;
+    }
+
+    .starters .list1 {
+        margin-right: 75px;
+    }
+
+    .starters .list3 {
+        margin-right: 114px;
+    }
+
+    .starters p {
+        margin-top: 6px;
+    }
+
+    .starters a {
+        margin-left: 7px;
+    }
+
+    .starters {
+        margin-bottom: 72px;
+    }
+
+    .services__content h2 {
+        margin-bottom: -2px;
+    }
+
+    .generators .lists ul {
+        margin-bottom: 38px;
+    }
+
+    .generators .list3 {
+        margin-right: 96px;
+    }
+
+    .generators p {
+        margin-top: -4px;
+    }
+
+    .generators {
+        margin-bottom: 56px;
+    }
+
+    .conditioners {
+        margin-right: 43px;
+        width: 310px;
+    }
+
+    .conditioners-and-acamulators p{
+        margin-top: 35px;
+    }
+
+    .starters::after, .generators::after {
+        width: 683px;
+        margin-top: 21px;
+    }
+
+    .menu-last {
+        display: none;
+    }
+
+    .footer-content {
+        max-width: 710px;
+        margin-top: -27px;
+    }
+
+    .footer-info {
+        margin-top: 16px;
+        margin-right: 2px;
+    }
+}
+
+@media (max-width: 760px) {
+    .container {
+        max-width: 550px;
+    }
+
+    .header-content {
+        flex-direction: column;
+    }
+
+    .header-content p {
+        margin-top: 12px;
+        text-align: center;
+    }
+
+    .burger-menu {
+        width: 30px;
+        top: -93px;
+        margin-right: 0px;
+    }
+
+    .menu-content {
+        width: 100%;
+    }
+
+    .our-services {
+        height: 1830px;
+    }
+
+    .our-service__cards {
+        width: 440px;
+        margin-left: 83px;
+    }
+
+    .our-service__bottom-cards {
+        width: 440px;
+        margin-top: -1509px;
+        margin-left: 85px;
+    }
+
+    .rivme-and-lyck {
+        width: 500px;
+        flex-direction: column;
+    }
+
+    .rivne-stc,
+    .lyck-stc {
+        width: 500px;
+    }
+
+    .stc {
+        flex-direction: column;
+    }
+
+    .street-and-tel {
+        justify-content: center;
+    }
+
+    .sts-specialization {
+        text-align: center;
+    }
+
+    .stc button {
+        width: 155px;
+        margin-left: 165px;
+        margin-top: 0px;
+    }
+
+    .stc4 button {
+        margin-top: 20px;
+    }
+
+    .stc5 .street-and-tel {
+        margin-top: 0px;
+    }
+
+    .lyck-stc {
+        height: 450px;
+    }
+
+    .stc5 button {
+        margin-top: 20px;
+    }
+
+    .stc1::after,
+    .stc2::after,
+    .stc3::after,
+    .stc5::after,
+    .stc6::after {
+        width: 500px;
+        margin-top: 137px;
+    }
+
+    .stc5::after {
+        margin-top: 120px;
+    }
+
+    .rivne-stc {
+        height: 590px;
+    }
+
+    .gids {
+        width: 500px;
+    }
+
+    .gid {
+        width: 100%;
+    }
+
+    .video {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .gid:last-child {
+        margin-right: 0px;
+    }
+
+    .form__content {
+        width: 495px;
+    }
+
+    .form__content h1 {
+        margin-left: 35px;
+    }
+
+    .services__content {
+        width: 497px;
+        height: 1925px;
+    }
+
+    .starters::after, .generators::after {
+        width: 467px;
+        margin-top: 21px;
+    }
+
+    .services__content h2 {
+        margin-bottom: 15px;
+    }
+
+    .services__content .lists ul {
+        margin-bottom: 15px;
+    }
+
+    .form-to-call {
+        margin-left: 120px;
+    }
+
+    .footer-content {
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 549px) {
+    .container {
+        max-width: 320px;
+        padding: 0 7px;
+    }
+
+    .our-services {
+        height: 1475px;
+    }
+
+    .our-service__cards {
+        margin-top: 2px;
+        margin-left: 0px;
+        width: 294px;
+    }
+
+    .our-service__card img {
+        width: 288px;
+    }
+
+    .our-service__card {
+        width: 289px;
+        height: 301px;
+        margin-bottom: 78px;
+    }
+
+    .card3 {
+        margin-bottom: 95px;
+    }
+
+    .our-service__card p {
+        margin-top: 26px;
+    }
+
+    .card4 p {
+        width: 137px;
+        margin-left: 75px;
+    }
+
+    .our-service__card h2::after {
+        width: 240px;
+        margin-top: 33px;
+    }
+
+    .card1 h2::after {
+        margin-left: -158px;
+    }
+
+    .card2 h2::after {
+        margin-left: -174px;
+    }
+
+    .card3 h2::after {
+        margin-left: -186px;
+    }
+
+    .card4 h2::after {
+        margin-left: -179px;
+    }
+
+    .our-service__bottom-cards {
+        width: 292px;
+        margin-top: -1237px;
+        margin-left: -2px;
+    }
+
+    .our-service__bottom-cards p {
+        width: 294px;
+        margin-bottom: 320px;
+        margin-left: 1px;
+    }
+
+    .last {
+        display: none;
+    }
+
+    .last-adapt {
+        display: block;
+    }
+
+    .stc-geoloc__content {
+        margin-top: 54px;
+    }
+
+    .stc-geoloc__content h1 {
+        text-align: center;
+    }
+
+    .rivme-and-lyck {
+        margin-top: 25px;
+        width: 301px;
+    }
+
+    .rivne-stc,
+    .lyck-stc {
+        width: 289px;
+        margin-top: -2px;
+    }
+
+    .street-and-tel {
+        justify-content: flex-start;
+    }
+
+    .sts-specialization {
+        text-align: start;
+        margin-top: 12px;
+    }
+
+    .stc {
+        padding-top: 3px;
+        padding-left: 13px;
+    }
+
+    .stc button {
+        width: 144px;
+        margin-left: 0;
+        margin-top: 7px;
+    }
+
+    .stc2 {
+        margin-top: 20px;
+    }
+
+    .stc3 {
+        margin-top: 18px;
+    }
+
+    .stc4 .street-and-tel {
+        flex-wrap: wrap;
+    }
+
+    .stc4 {
+        margin-top: 18px;
+    }
+
+    .stc4 .street {
+        margin-bottom: 4px;
+    }
+
+    .stc4 .tel {
+        margin-left: 0px;
+    }
+
+    .stc4 button {
+        margin-top: 51px;
+    }
+
+    .stc4 .tel::before {
+        margin-top: -24px;
+        margin-left: 268px;
+    }
+
+    .rivne-stc {
+        height: 623px;
+    }
+
+    .lyck {
+        margin-top: 32px;
+    }
+
+    .lyck-stc .stc {
+        padding-top: 0;
+        padding-left: 11px;
+    }
+
+    .stc5 button {
+        margin-top: 35px;
+        margin-left: 3px;
+    }
+
+    .stc6 {
+        margin-top: 23px;
+        margin-left: 2px;
+    }
+
+    .lyck-stc .stc3 {
+        display: block;
+        margin-top: 21px;
+        margin-left: 2px;
+    }
+
+    .stc7 {
+        margin-top: 22px;
+    }
+
+    .stc7 .street-and-tel {
+        flex-wrap: wrap;
+    }
+
+    .stc7 .tel {
+        margin-left: 0;
+        margin-top: -15px;
+        margin-bottom: 17px;
+    }
+
+    .lyck-stc {
+        height: 625px;
+    }
+
+    .stc1::after,
+    .stc2::after,
+    .stc3::after,
+    .stc5::after,
+    .stc6::after {
+        width: 288px;
+        margin-top: 150px;
+        margin-left: -12px;
+    }
+
+    .stc5::after {
+        margin-top: 135px;
+    }
+
+    .stc7 .tel::before {
+        margin-top: -23px;
+        margin-left: 240px;
+    }
+
+    .lyck .stc3::after {
+        margin-top: 75px;
+        margin-left: -156px;
+    }
+
+    .video-gids__content {
+        margin-top: 51px;
+        margin-left: 0px;
+    }
+
+    .gids {
+        width: 290px;
+    }
+
+    .video-gids__content h1 {
+        margin-bottom: 2px;
+        width: 189px;
+        text-align: center;
+        margin-left: 51px;
+    }
+
+    .gid h2 {
+        margin-bottom: 4px;
+    }
+
+    .video {
+        width: 290px;
+        height: 185px;
+    }
+
+    .prew {
+        height: 149px;
+    }
+
+    .yt {
+        margin-left: 120px;
+        margin-top: 76px;
+    }
+
+    .youtube {
+        height: 32px;
+    }
+
+    .gid {
+        margin-bottom: 7px;
+    }
+
+    .form__content {
+        width: 290px;
+        margin-top: 32px;
+    }
+
+    .form__content h1 {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .form-to-call {
+        margin-left: 14px;
+        margin-top: 5px;
+    }
+
+    .popup__content {
+        padding: 35px 17px;
+        height: 390px;
+    }
+
+    .popup__close {
+        right: 24px;
+        top: 21px;
+    }
+
+    .popup__title img {
+        margin-bottom: -7px;
+        width: 60px;
+    }
+
+    .popup__title-text {
+        display: none;
+    }
+
+    .popup__title-text-adapt {
+        display: block;
+        margin-bottom: -4px;
+    }
+
+    .popup__text {
+        margin-top: 0;
+        width: 234px;
+        margin-left: 15px;
+    }
+
+    .popup__text::after {
+        width: 266px;
+        margin-left: -133px;
+        margin-top: -5px;
+    }
+
+    .popup__social {
+        margin-left: 57px;
+    }
+
+    .services__content {
+        width: 289px;
+        height: 1925px;
+        margin-top: 25px;
+        padding-left: 13px;
+    }
+
+    .services__content h2 {
+        margin-bottom: -3px;
+    }
+
+    .starters .lists ul {
+        margin-bottom: 12px;
+    }
+
+    .services__content .lists ul {
+        margin-right: 0;
+    }
+
+    .starters p {
+        margin-top: 6px;
+        width: 268px;
+        line-height: 24px;
+    }
+
+    .starters a {
+        margin-left: 0;
+        display: flex;
+    }
+
+    .starters {
+        margin-bottom: 56px;
+    }
+
+    .generators p {
+        margin-top: -2px;
+        width: 211px;
+        line-height: 24px;
+    }
+
+    .generators {
+        margin-bottom: 41px;
+    }
+
+    .conditioners {
+        margin-right: 0;
+        width: 265px;
+    }
+
+    .conditioners-and-acamulators p {
+        position: absolute;
+        margin-top: 330px;
+        width: 260px;
+        line-height: 24px;
+    }
+
+    .acamulators{
+        margin-top: 80px;
+    }
+
+    .starters::after, .generators::after {
+        width: 263px;
+        margin-top: 11px;
+    }
+
+    .footer-content {
+        max-width: 290px;
+        margin-top: -35px;
+    }
+
+    .footer-info {
+        margin-top: -6px;
+        margin-right: 2px;
+    }
+}

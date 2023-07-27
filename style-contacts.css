@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F9F9F9;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 1382px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.header {
+    margin-top: 23px;
+}
+
+.header-content {
+    display: flex;
+}
+
+.header-content img{
+    margin-right: 363.54px;
+}
+
+.header-content p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #666666;
+    margin-top: 33px;
+}
+
+.menu {
+    position: relative;
+    z-index: 2;
+}
+
+.menu-content {
+    display: flex;
+    border: 1px solid;
+    border-color: #E2E2E2;
+    border-radius: 5px;
+    background-color: #ffffff;
+    height: 80px;
+    width: 1361px;
+    margin-top: 20px;
+}
+
+.menu-list {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333333;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 82px;
+}
+
+.menu-list__item:hover {
+    color: #888888;
+}
+
+.about {
+    margin-right: 170px;
+}
+
+.network {
+    margin-right: 158px;
+}
+
+.internet-shop {
+    margin-right: 119px;
+}
+
+.ready-solutions {
+    margin-right: 148px;
+}
+
+.contacts {
+    color: #888888;
+}
+
+.about::after,
+.network::after,
+.internet-shop::after,
+.ready-solutions::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 50px;
+    background-color: #E2E2E2;
+    top: 18px;
+    margin-left: 81px;
+}
+
+.network::after {
+    margin-left: 88px;
+}
+
+.internet-shop::after {
+    margin-left: 71px;
+}
+
+.ready-solutions::after {
+    margin-left: 46px;
+}
+
+.contacts__content {
+    margin-top: 82px;
+    margin-bottom: 102px;
+}
+
+.contacts__content h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 23px;
+}
+
+.contacts-info-and-map {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    width: 1372px;
+}
+
+.contacts-info p {
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+
+.adress a{
+    color: #337AB7;
+}
+
+.tel{
+    color: #999;
+}
+
+.viber{
+    color: #79509A;
+}
+
+.google-map{
+    margin-left: 63px;
+    margin-top: -58px;
+}
+
+.footer-content {
+    margin-top: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #999999;
+    width: 1360px;
+    text-align: justify;
+}
+
+.footer-info {
+    font-size: 14px;
+    text-align: right;
+    margin-top: -23px;
+}

@@ -1,0 +1,554 @@
+@media (max-width: 1650px) {
+    .ready-solutions {
+        margin-right: 125px;
+    }
+
+    .menu-content {
+        width: 1310px;
+    }
+
+    .mission-title {
+        width: 1310px;
+    }
+
+    .mission {
+        margin-top: -40px;
+        padding-top: 56px;
+    }
+}
+
+@media (max-width: 1360px) {
+    .container {
+        max-width: 768px;
+        padding: 0 21px;
+    }
+
+    .header-content img {
+        margin-right: 102px;
+    }
+
+    .header-content p {
+        margin-top: 30px;
+    }
+
+    .burger-menu {
+        display: block;
+        position: relative;
+        width: 38px;
+        height: 20px;
+        top: -42px;
+        margin-left: auto;
+        margin-right: 3px;
+        z-index: 50;
+    }
+
+    .burger-menu span {
+        position: absolute;
+        content: '';
+        background-color: #333333;
+        width: 100%;
+        height: 3px;
+        border-radius: 5px;
+        left: 0;
+        top: 9px;
+    }
+
+    .burger-menu::before,
+    .burger-menu::after {
+        position: absolute;
+        content: '';
+        background-color: #333333;
+        width: 100%;
+        height: 3px;
+        border-radius: 5px;
+        left: 0;
+    }
+
+    .burger-menu::before {
+        top: 0;
+    }
+
+    .burger-menu::after {
+        bottom: 0;
+    }
+
+    .burger-menu.active span {
+        transform: scale(0);
+    }
+
+    .burger-menu.active::before {
+        transform: rotate(45deg);
+        top: 9px;
+    }
+
+    .burger-menu.active::after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+
+    .menu-content {
+        position: fixed;
+        width: 694px;
+        height: 400px;
+        right: -100%;
+        top: 0;
+    }
+
+    .menu-content.active {
+        right: 0;
+    }
+
+    .menu-list {
+        display: flex;
+        text-align: center;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 75px;
+        margin-left: 0px;
+        margin-bottom: 25px;
+        font-size: 18px;
+    }
+
+    .about,
+    .network,
+    .internet-shop,
+    .ready-solutions {
+        margin-right: 0;
+    }
+
+
+    .about::after,
+    .network::after,
+    .internet-shop::after,
+    .ready-solutions::after {
+        width: 100%;
+        height: 2px;
+        top: 115px;
+        left: -47px;
+    }
+
+    .about::after {
+        margin-left: 46px;
+    }
+
+    .network::after {
+        margin-left: 46px;
+        margin-top: 72px;
+    }
+
+    .internet-shop::after {
+        margin-left: 46px;
+        margin-top: 142px;
+    }
+
+    .ready-solutions::after {
+        margin-left: 46px;
+        margin-top: 210px;
+    }
+
+    .mission {
+        margin-top: 16px;
+        padding-top: 9px;
+        height: 727px;
+    }
+
+    .mission-title {
+        display: none;
+    }
+
+    .mission-title-adapt1 {
+        display: block;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .mission-text {
+        display: none;
+    }
+
+    .mission-text-adapt1 {
+        display: block;
+        margin-left: 0;
+        margin-top: 40px;
+        line-height: 22px;
+    }
+
+    .mission__content img {
+        margin-top: 20px;
+        width: 709px;
+        margin-left: 0;
+    }
+
+    .mission-list-title {
+        margin-left: 0;
+        font-size: 16px;
+        margin-top: 28px;
+    }
+
+    .mission__content ul {
+        margin-left: 0;
+        margin-top: 14px;
+        margin-bottom: 50px;
+    }
+
+    .video video {
+        left: 31px;
+        width: 92%;
+    }
+
+    .about-company__content {
+        width: 710px;
+        height: 550px;
+        padding-left: 16px;
+        padding-top: 3px;
+    }
+
+    .company-restart {
+        margin-bottom: 20px;
+    }
+
+    .restart-text {
+        display: none;
+    }
+
+    .restart-text-adapt1 {
+        display: block;
+    }
+
+    .restart-text-adapt1::after {
+        width: 680px;
+        margin-left: -335px;
+        margin-top: 43px;
+    }
+
+    .assortment-and-advantage {
+        margin-top: -23px;
+        width: 641px;
+    }
+
+    .assortment h1,
+    .advantage h1 {
+        margin-bottom: 5px;
+    }
+
+    .assortment ul {
+        width: 360px;
+    }
+
+    .advantage ul {
+        width: 281px;
+    }
+
+    .about-us__content {
+        display: none;
+    }
+
+    .about-us__content-adapt1 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 39px;
+    }
+
+    .about-us__check {
+        justify-content: flex-start;
+        width: 355px;
+        margin-bottom: -1px;
+    }
+
+    .colum1 {
+        margin-right: 0;
+    }
+
+    .about-us__text {
+        width: 305px;
+    }
+
+    .check-mark {
+        margin-right: 0px;
+    }
+
+    .baner__content {
+        margin-top: 23px;
+        flex-direction: column;
+    }
+
+    .baner-btn {
+        display: none;
+    }
+
+    .baner-btn-adapt1 {
+        display: block;
+        margin-top: 10px;
+        margin-left: 17px;
+    }
+
+    .baner-btn-adapt1 button {
+        margin-top: 7px;
+        margin-bottom: 38px;
+    }
+
+    .menu-last {
+        display: none;
+    }
+
+    .footer-content {
+        max-width: 710px;
+        margin-top: -27px;
+    }
+
+    .footer-info {
+        margin-top: 16px;
+        margin-right: 2px;
+    }
+}
+
+@media (max-width: 760px) {
+    .container {
+        max-width: 550px;
+    }
+
+    .header-content {
+        flex-direction: column;
+    }
+
+    .header-content p {
+        margin-top: 12px;
+        text-align: center;
+    }
+
+    .burger-menu {
+        width: 30px;
+        top: -93px;
+        margin-right: 0px;
+    }
+
+    .menu-content {
+        width: 100%;
+    }
+
+    .mission {
+        margin-top: -10px;
+        padding-top: 5px;
+        height: 828px;
+    }
+
+    .mission__content img {
+        width: 465px;
+    }
+
+    .mission-text-adapt1 {
+        display: none;
+    }
+
+    .mission-text {
+        display: block;
+        margin-left: 0;
+        line-height: 25px;
+    }
+
+    .about-company__content {
+        width: 450px;
+        height: 745px;
+        padding-left: 16px;
+        padding-top: 3px;
+    }
+
+    .restart-text-adapt1::after {
+        width: 420px;
+    }
+
+    .assortment-and-advantage {
+        flex-direction: column;
+        width: 320px;
+    }
+
+    .assortment ul,
+    .advantage ul {
+        width: 417px;
+    }
+
+    .footer-content {
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        max-width: 320px;
+        padding: 0 7px;
+    }
+
+    .mission-title,
+    .mission-title-adapt1 {
+        display: none;
+    }
+
+    .mission-title-adapt2 {
+        display: block;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .mission-text {
+        display: none;
+    }
+
+    .mission-text-adapt2 {
+        display: block;
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 31px;
+        margin-left: 0;
+    }
+
+    .mission__content img {
+        width: 280px;
+        margin-left: 5px;
+        margin-top: 12px;
+    }
+
+    .mission-list-title {
+        display: none;
+    }
+
+    .mission-list-title-adapt {
+        display: block;
+        margin-left: 13px;
+        font-size: 16px;
+        margin-top: 19px;
+        line-height: 24px;
+    }
+
+    .mission__content ul {
+        margin-left: 13px;
+        margin-top: 23px;
+        font-size: 16px;
+        width: 247px;
+        line-height: 23px;
+    }
+
+    .video video {
+        left: 0;
+        width: 100%;
+        height: 243px;
+    }
+
+    .about-company__content {
+        width: 290px;
+        height: 963px;
+        padding-left: 13px;
+        padding-top: 12px;
+        margin-top: 342px;
+    }
+
+    .company-restart {
+        margin-bottom: 0;
+        font-size: 16px;
+    }
+
+    .restart-text-adapt1 {
+        display: none;
+    }
+
+    .restart-text-adapt2 {
+        display: block;
+        font-size: 15px;
+        line-height: 22px;
+        margin-top: 12px;
+    }
+
+    .restart-text-adapt2::after {
+        width: 260px;
+        margin-left: -103px;
+        margin-top: 53px;
+    }
+
+    .assortment {
+        margin-bottom: -29px;
+    }
+
+    .assortment-and-advantage {
+        flex-direction: column;
+        width: 260px;
+        margin-top: 1px;
+    }
+
+    .assortment h1 {
+        margin-bottom: 0px;
+    }
+
+    .advantage h1 {
+        margin-bottom: 5px;
+    }
+
+    .assortment ul {
+        width: 286px;
+    }
+
+    .advantage ul {
+        width: 258px;
+    }
+
+    .about-us__content-adapt1 {
+        display: none;
+    }
+
+    .about-us__content-adapt2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 33px;
+        height: 915px;
+        justify-content: space-between;
+    }
+
+    .about-us__check {
+        flex-direction: column;
+        width: 292px;
+    }
+
+    .check-mark {
+        height: 27px;
+        width: 27px;
+    }
+
+    .about-us__text {
+        width: 299px;
+        margin-left: 0;
+        margin-top: 6px;
+        margin-bottom: 0;
+    }
+
+    .baner__content {
+        margin-top: 44px;
+    }
+
+    .baner-btn-adapt1 {
+        display: none;
+    }
+
+    .baner-btn-adapt2 {
+        display: block;
+    }
+
+    .baner-btn-adapt2 p {
+        margin-left: 13px;
+        margin-top: 17px;
+    }
+
+    .baner-btn-adapt2 button {
+        margin-top: 10px;
+        margin-left: 30px;
+        margin-bottom: 35px;
+    }
+
+    .footer-content {
+        max-width: 290px;
+        margin-top: -35px;
+    }
+
+    .footer-info {
+        margin-top: -6px;
+        margin-right: 2px;
+    }
+}
