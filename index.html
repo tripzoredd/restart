@@ -41,8 +41,14 @@
     <section class="main-section">
         <div class="image-comparison">
             <div class="images-container">
-                <img src="img-main/main-section/cars.jpg" class="before-image">
-                <img src="img-main/main-section/detales.jpg" class="after-image">
+                <picture>
+                    <source srcset="img-main/main-section/cars.webp" type="image/webp">
+                    <img src="img-main/main-section/cars.jpg" class="before-image">
+                </picture>
+                <picture>
+                    <source srcset="img-main/main-section/detales.webp" type="image/webp">
+                    <img src="img-main/main-section/detales.jpg" class="after-image">
+                </picture>
             </div>
 
             <div class="slider-icon">
